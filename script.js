@@ -57,30 +57,3 @@ console.log(fruits);
 const methodSliceOne = fruits.slice(2);
 const methodSliceTwo = fruits.slice(1, 4);
 console.log(methodSliceOne, methodSliceTwo);
-
-
-// FUNZIONAMENTO
-// const testo = document.querySelector(".text");
-// const bottoni = document.querySelectorAll(".btn");
-
-// for (let i = 0; i < bottoni.length; i++) {
-//     const element = bottoni[i];
-//     if (i === 0) {
-//         element.addEventListener("click", function () {
-//             testo.innerHTML = `TO STRING
-//             const methodToString = fruits.toString();
-//             console.log(fruits, methodToString);<br>`
-            
-//             const methodToString = fruits.toString();
-//             testo.innerHTML += methodToString;
-//         })
-//     } else if (i === 1) {
-//         element.addEventListener("click", function () {
-//             testo.innerHTML = "";
-//         })
-//     } else if (i === 2) {
-//         element.addEventListener("click", function () {
-//             testo.innerHTML = "";
-//         })
-//     }
-// }
